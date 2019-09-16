@@ -1,0 +1,8 @@
+.author::after {
+    content: attr(data-count);
+    margin-left: 10px;
+}
+
+.author.active {
+    background: yellow;
+}
